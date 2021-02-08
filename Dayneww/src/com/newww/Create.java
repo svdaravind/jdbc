@@ -15,7 +15,7 @@ public class Create {
 			stmt.executeUpdate(sql);
 			System.out.println("Created table in given database...");
 		} catch (Exception e) {
-			// Handle errors for Class.forName
+			System.out.println("Exception...");
 			e.printStackTrace();
 		}
 
